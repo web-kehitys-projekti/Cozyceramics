@@ -1,0 +1,208 @@
+body {
+    background-color: #313e23;
+    font-family: "Overlock", serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container-main {
+    margin-top: 100px;
+    background-color: #40492d;
+    color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-width: 90%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Overlock SC", serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2{
+    font-family: "Overlock SC", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff
+}
+h4{
+    font-family: "Overlock SC", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #313e23;
+    opacity: 0.8;
+    align-self: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container-navigation {
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar-nav a {
+    font-family: "Overlock", serif;
+    color: white;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.navbar-brand img:hover  {
+    transform: scale(1.2);
+    transition: transform 0.4s ease;
+}
+
+.nav-icon a:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease;
+}
+
+.header-image {
+    background-image: url("kuvat/img-herokuva-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.footer {
+    background-color: #40492d;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer img {
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+}
+
+.line {
+    margin: 10px auto;
+    border: 0;
+    border-top: 1px solid white;
+    max-width: 800px;
+}
+
+@media (max-width: 992px) {
+
+    .navbar {
+        background-color: #313e23;
+        font-family: "Overlock SC", serif;
+        color: white;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        list-style: none;
+    }
+
+    .navbar-nav a {
+        font-size: 22px;
+    }
+
+    .nav-icon img {
+        height: 30px;
+        width: auto;
+    }
+
+    .navbar-brand img {
+        display: none;
+        margin-left: 0;
+        height: 0;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .navbar {
+        background-color: #313e23;
+        font-family: "Overlock SC", serif;
+        color: white;
+    }
+
+    .navbar-nav a {
+        font-size: 18px;
+    }
+
+    .nav-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .nav-icon img {
+        height: 26px;
+        width: auto;
+    }
+
+    .navbar-brand img {
+        display: none;
+        margin-left: 0;
+        height: 0;
+        width: auto;
+    }
+
+    .footerinfo {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
