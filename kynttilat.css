@@ -183,61 +183,41 @@ p {
     max-width: 800px;
 }
 
-@media (max-width: 992px) {
-
-    .navbar {
-        background-color: #313e23;
+@media (max-width: 768px) {
+    header .navbar {
+        background-color: transparent;
         font-family: "Overlock SC", serif;
         color: white;
+        padding: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     .navbar-nav {
         display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        list-style: none;
+        flex-direction: row;
+        align-content: flex-start;
     }
 
     .navbar-nav a {
-        font-size: 22px;
+        font-size: 14px;
     }
 
-    .nav-icon img {
-        height: 30px;
-        width: auto;
-    }
-
-    .navbar-brand img {
-        display: none;
-        margin-left: 0;
-        height: 0;
-        width: auto;
-    }
-
-}
-
-@media (max-width: 576px) {
-
-    .navbar {
-        background-color: #313e23;
-        font-family: "Overlock SC", serif;
-        color: white;
-    }
-
-    .navbar-nav a {
-        font-size: 18px;
-    }
-
-    .nav-icon {
+    .navbar-logos {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
 
-    .nav-icon img {
-        height: 26px;
+    .navbar-logos img {
+        height: 20px;
         width: auto;
+        margin-left: 10px;
+        margin-right: 0;
+        gap: 10px;
     }
 
     .navbar-brand img {
@@ -245,13 +225,6 @@ p {
         margin-left: 0;
         height: 0;
         width: auto;
-    }
-
-    .footerinfo {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
 
     .footer,
