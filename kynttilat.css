@@ -142,9 +142,9 @@ p {
 }
 
 .btn:hover {
-    background-color: #e1b570;
+    background-color: #bc8544;
     transform: scale(1.03);
-    color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
 }
 
 .footer {
