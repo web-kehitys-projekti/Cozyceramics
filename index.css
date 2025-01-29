@@ -158,13 +158,11 @@ p {
     background: #dda15e;
     padding: 10px 20px;
     border-radius: 20px;
-    font-weight: bold;
     text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Overlock SC', serif;
     font-size: 18px;
     letter-spacing: 2px;
-    color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
     z-index: 2;
 }
 
