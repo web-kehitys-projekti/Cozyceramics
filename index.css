@@ -152,7 +152,7 @@ p {
 
 .cards .col-md-4 .rectangle {
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     background: #dda15e;
