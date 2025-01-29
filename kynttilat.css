@@ -130,15 +130,14 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 7px 15px;
     margin-top: 100px;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 22px;
     text-decoration: none;
     text-align: center;
     background-color: #dda15e;
-    color: #313e23;
-    font-weight: bold;
+    color: #ffffff;
     transition: background-color 0.3s ease;
 }
 
